@@ -3,26 +3,28 @@
   background: #FFF;
   opacity: 0;
   height: 100%;
+  box-shadow: 1px 1px 43px -1px rgba(156,156,156,1);
+  overflow: hidden;
 }
 
 .HoverCard__Img {
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%;
+  /* width: 100%; */
+  height: 100%;
 }
 
 .HoverCard__Infos {
   position: absolute;
   z-index: 20;
   width: 100%;
-  height: 100px;
+  height: 80px;
   bottom: 0;
   left: 0;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  overflow: hidden;
 }
 
 .HoverCard__InfosColors {

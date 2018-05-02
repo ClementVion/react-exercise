@@ -31,6 +31,7 @@
 .Products__HoverCard {
   position: absolute;
   z-index: 10;
-  width: 110%;
-  height: 100%;
+  width: 130%;
+  height: 120%;
+  margin-top: -10%;
 }
