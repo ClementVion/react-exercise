@@ -1,0 +1,16 @@
+.HoverCard {
+  position: relative;
+  background: #FFF;
+  opacity: 0;
+}
+
+.HoverCard__Img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.HoverCard__Img.hidden {
+  display: none;
+}

@@ -1,0 +1,36 @@
+.Products {
+  max-width: 1300px;
+  width: 90%;
+  margin: auto;
+}
+
+.Products__List {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 0;
+}
+
+.Products__Item {
+  width: 20%;
+  height: 400px;
+  margin: 40px 2.5%;
+  list-style: none;
+  cursor: pointer;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.Products__Item > img {
+  position: absolute;
+  z-index: 0;
+  width: 60%;
+}
+
+.Products__HoverCard {
+  position: absolute;
+  z-index: 10;
+  width: 110%;
+  height: 100%;
+}
